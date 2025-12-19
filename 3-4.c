@@ -27,7 +27,7 @@ void GetStudent( struct student child[][ 10 ], int *room ) {
     printf("Enter number of rooms: ");
     scanf("%d", room);
 
-    // Loop ตามจำนวนห้อง
+
     for (int i = 0; i < *room; i++) {
         printf("\n Room %d \n", i + 1);
 
@@ -38,4 +38,5 @@ void GetStudent( struct student child[][ 10 ], int *room ) {
             scanf("%f", &child[i][j].score);
         }
     }
+
 }
